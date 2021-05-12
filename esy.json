@@ -7,10 +7,7 @@
     "ocaml": "melange-re/ocaml#75f22c8"
   },
   "esy": {
-    "buildsInSource": "unsafe",
-    "build": [
-      "ln -sfn #{bs-platform.install} node_modules/bs-platform"
-    ]
+    "buildsInSource": "unsafe"
   },
   "installConfig": {
     "pnp": false
